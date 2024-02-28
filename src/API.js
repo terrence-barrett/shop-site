@@ -4,7 +4,7 @@ require('dotenv').config()
 export const LOGIN_USER_KEY = "HIVE_TECHWEAR_LOGIN_USER_KEY";
 
 var baseURL ;
-baseURL='http://127.0.0.1:8000/' 
+baseURL='https://hive-back-ypos.onrender.com' 
 
 const api = axios.create({
   baseURL: baseURL,
