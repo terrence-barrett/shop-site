@@ -13,7 +13,7 @@ export default function Search({ setSearch, setPage }) {
 	useEffect(() => {
 		const timeOutId = setTimeout(() => setSearch(query), 300);
 		return () => clearTimeout(timeOutId);
-	}, [setSearch, query]);
+	}, [query]);
 
 	return (
 		<li>

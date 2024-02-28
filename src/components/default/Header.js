@@ -22,7 +22,7 @@ export default function Header(props) {
 	return (
 		<header className="header">
 			<Link to="/">
-				<img className="logo" src={Logo} alt="HIVETechwear" />
+				<img className="logo" src={Logo} alt="HIVETech" />
 			</Link>
 			<input id="menu__toggle" type="checkbox" />
 			<label className="menu__btn" htmlFor="menu__toggle">
